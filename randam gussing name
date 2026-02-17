@@ -1,0 +1,12 @@
+import random
+
+num = random.randint(1, 5)
+guess = int(input("Guess: "))
+
+if guess == num:
+    print("Correct!")
+else:
+    print("Wrong! Number was", num)
+output:
+Guess: 1
+Wrong! Number was 4
